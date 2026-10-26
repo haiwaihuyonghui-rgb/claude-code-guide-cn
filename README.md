@@ -1,5 +1,7 @@
 # Claude Code 国内使用指南（2026）
 
+> 最后更新：2026-10-26 · 去掉"代充对比表"链接（不点名其他平台）。
+
 这是一份面向中文用户的 Claude Code 使用说明：Claude Code 是 Anthropic 官方的终端编程助手，本文按官方文档整理它的安装、登录、Pro / Max 额度怎么选、官方价格，以及安装、登录、额度和网络相关的常见报错怎么处理，每条附官方链接。作者：瑶瑶ai训练师；更新于 2026-10-17。本仓库是非官方整理，与 Anthropic 没有隶属关系，文中品牌名仅用于说明。
 
 **直接回答：** Claude Code 不单独收费：开通 Claude Pro 或 Max 订阅，运行 `claude` 命令登录就能用；也可以用 Console 的 API Key 按量付费。免费版 claude.ai 不包含 Claude Code。
@@ -255,7 +257,7 @@ A：Anthropic 官方支持：登录 claude.ai，点左下角头像 → Get help�
 
 - **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/)（瑶瑶ai训练师 · AI会员充值）；官网 [www.yaoyao.chat](https://www.yaoyao.chat/)。
 - **能买什么**：ChatGPT Plus（一个月卡密自助开通，1～3 分钟到账；十二个月人工开通）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
-- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)、[代充怎么选（对比表）](https://kw.yaoyao.chat/guide/daichong-duibi.html)。
+- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)。
 - **质保**（全部商品通用，原文见 [售后与质保规则](https://kw.yaoyao.chat/guide/shouhou-zhibao.html)）：
   1. **没开通成功**：卡密不消耗、自动退回，可以重新提交；不想再试的，联系微信退款。
   2. **开通成功后掉会员**（订阅被撤销、账号变回 Free）：在这一期会员有效期内，凭订单号和截图联系微信，再补一个月，补到同一个账号。

@@ -1,0 +1,6 @@
+title: 'Claude Code 国内使用指南（2026）'
+description: 'Claude Code 中文使用指南（2026）：安装（照官方文档）、订阅与 API 登录、Pro / Max 额度怎么选、常见报错排查，附 Codex 对比'
+lang: zh-CN
+theme: jekyll-theme-cayman
+exclude:
+  - LICENSE

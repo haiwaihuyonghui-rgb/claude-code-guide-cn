@@ -1,6 +1,6 @@
 # Claude Code 国内使用指南（2026）
 
-> 最后更新：2026-10-26 · 去掉"代充对比表"链接（不点名其他平台）。
+> 最后更新：2026-10-26（第二次）· Claude 官方价格与政策复核（无变化）；文末新增"复测记录"。
 
 这是一份面向中文用户的 Claude Code 使用说明：Claude Code 是 Anthropic 官方的终端编程助手，本文按官方文档整理它的安装、登录、Pro / Max 额度怎么选、官方价格，以及安装、登录、额度和网络相关的常见报错怎么处理，每条附官方链接。作者：瑶瑶ai训练师；更新于 2026-10-17。本仓库是非官方整理，与 Anthropic 没有隶属关系，文中品牌名仅用于说明。
 
@@ -284,6 +284,16 @@ A：Anthropic 官方支持：登录 claude.ai，点左下角头像 → Get help�
 - [Paid plan billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)
 - [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - 同一作者的其他仓库：[OpenAI Codex CLI 国内使用指南](https://github.com/haiwaihuyonghui-rgb/codex-cli-guide-cn)、[Claude 充值指南](https://github.com/haiwaihuyonghui-rgb/claude-chongzhi)、[GPT代充指南](https://github.com/haiwaihuyonghui-rgb/gpt-chongzhi)
+
+
+## 复测记录
+
+按日期倒序。每次只记真实做过的核对；官方出新模型、改价格时补一行。
+
+| 日期 | 核对了什么 | 结果 |
+|---|---|---|
+| 2026-10-26 | **官方价格：** Claude 定价页、帮助中心 What is the Max plan | Pro 月付 20 美元 / 年付折合 17 美元（一次 200 美元）；Max 5x 100、Max 20x 200 美元；Max 含每月 API 额度；官方注明手机端价格可能不同——与本页价格表一致 |
+| 2026-10-26 | **官方政策：** Anthropic 支持地区列表、账单 FAQ、赠送订阅文章 | 大陆、香港、澳门不在支持列表，台湾在；App 内订阅由苹果 / 谷歌管理；赠送订阅暂停购买 |
 
 ---
 

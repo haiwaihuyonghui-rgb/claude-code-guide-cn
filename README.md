@@ -1,6 +1,6 @@
 # Claude Code 国内使用指南（2026）
 
-> 最后更新：2026-10-27 · 文首加"快速购买"和来源小调查，文末加"相关攻略"互链全部 10 个简体攻略仓库；作者商城价格 curl 复核无变动。
+> 最后更新：2026-10-27 · 相关攻略加组织目录页链接（yaoyao-ai-trainer.github.io）
 
 这是一份面向中文用户的 Claude Code 使用说明：Claude Code 是 Anthropic 官方的终端编程助手，本文按官方文档整理它的安装、登录、Pro / Max 额度怎么选、官方价格，以及安装、登录、额度和网络相关的常见报错怎么处理，每条附官方链接。作者：瑶瑶ai训练师；更新于 2026-10-17。本仓库是非官方整理，与 Anthropic 没有隶属关系，文中品牌名仅用于说明。
 
@@ -319,6 +319,7 @@ A：Anthropic 官方支持：登录 claude.ai，点左下角头像 → Get help�
 - [claude-chongzhi](https://github.com/haiwaihuyonghui-rgb/claude-chongzhi)：Claude 充值平台怎么选：Pro / Max 怎么选、充值后显示 Free Plan 排查
 - [grok-premium](https://github.com/haiwaihuyonghui-rgb/grok-premium)：Grok Premium（原 SuperGrok）国内怎么买：官方四档、三合一说明、四种开通方法
 - [ai-subscription-guide-cn](https://github.com/haiwaihuyonghui-rgb/ai-subscription-guide-cn)：AI 会员订阅国内指南：ChatGPT / Claude / Gemini / Grok 开通路线对比、常见报错速查
+- 组织目录页 [yaoyao-ai-trainer.github.io](https://yaoyao-ai-trainer.github.io/)：以后新攻略会交替放在组织号 yaoyao-ai-trainer 下，这个页面汇总两边全部攻略。
 
 ---
 

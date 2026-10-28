@@ -1,8 +1,6 @@
-**📚 全部教程合集：[国内 ChatGPT / Claude / Grok / Gemini 充值代充教程合集 2026](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io)**（本文已并入合集 [第五章 Claude Code](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io/blob/main/docs/claude-code.md)，16 章一个仓库，价格每周核对；网页版 [yaoyao-ai-trainer.github.io](https://yaoyao-ai-trainer.github.io/)）
-
 # Claude Code 国内使用指南（2026）
 
-> 最后更新：2026-10-27 · 相关攻略加组织目录页链接（yaoyao-ai-trainer.github.io）
+> 最后更新：2026-10-28 · 合集导流行移到快速购买下面，自家商城链接减到 5 个以内，开通时间统一写"平均 2 分钟"；许可证改为 CC BY-ND 4.0。
 
 这是一份面向中文用户的 Claude Code 使用说明：Claude Code 是 Anthropic 官方的终端编程助手，本文按官方文档整理它的安装、登录、Pro / Max 额度怎么选、官方价格，以及安装、登录、额度和网络相关的常见报错怎么处理，每条附官方链接。作者：瑶瑶ai训练师；更新于 2026-10-17。本仓库是非官方整理，与 Anthropic 没有隶属关系，文中品牌名仅用于说明。
 
@@ -13,15 +11,15 @@
 **选套餐：** 偶尔用选 Pro（$20/月），每天用几个小时选 Max 5x（$100/月），几乎全天跑选 Max 20x（$200/月）。额度按 5 小时窗口加每周上限计算，网页和 Claude Code 共用一份。
 
 <!-- 快速购买:开始（周更脚本会核对这里的价格） -->
-**快速购买**（作者自营商城 kw.yaoyao.chat，人民币，2026-10-27 核对，实际以商品页为准）：
+**快速购买**（作者自营商城 kw.yaoyao.chat，人民币，2026-10-28 核对，实际以商品页为准）：
 
-- ChatGPT Pro（100 美金档位）一个月 ¥699 → [kw.yaoyao.chat/item/17](https://kw.yaoyao.chat/item/17?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)
-- ChatGPT Plus 一个月 ¥129 → [kw.yaoyao.chat/item/5](https://kw.yaoyao.chat/item/5?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)
-- Claude Pro 一个月 ¥159 → [kw.yaoyao.chat/item/12](https://kw.yaoyao.chat/item/12?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn) · Claude Max 5X 一个月 ¥900 → [kw.yaoyao.chat/item/12?d=max5x](https://kw.yaoyao.chat/item/12?d=max5x&utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)
+- ChatGPT Pro（100 美金档位）一个月 ¥699 → [kw.yaoyao.chat/item/17](https://kw.yaoyao.chat/item/17?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)（同一个下单页可选 200 / 500 美金档位 ¥1399 / ¥3499）
+- ChatGPT Plus 一个月 ¥129 → [kw.yaoyao.chat/item/5](https://kw.yaoyao.chat/item/5?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)（同一个下单页可选三个月 ¥387、六个月 ¥774、十二个月 ¥1548，都是 ¥129 × 月数）
+- Claude Pro 一个月 ¥159 → [kw.yaoyao.chat/item/12](https://kw.yaoyao.chat/item/12?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)（同一个下单页可选 Max 5x ¥900 / Max 20x ¥1800）
 - 320万粉丝博主瑶瑶本人经营 · 开通失败可退 · 客服 09:00–24:00（北京时间）
-
-你是从哪里知道这个仓库的？点一下帮我们统计：[搜索引擎](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn&utm_content=search) · [AI 推荐](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn&utm_content=ai) · [朋友/群里发的](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn&utm_content=friend) · [GitHub 站内](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn&utm_content=github)
 <!-- 快速购买:结束 -->
+
+更多教程见：[全部教程合集](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io)
 
 ## 目录
 
@@ -167,7 +165,7 @@ Windows 说明：原生 Windows 建议安装 Git for Windows（可选），Claud
 |---|---|---|---|
 | `command not found: claude` / `'claude' is not recognized` | 安装目录不在 PATH 里（macOS / Linux 是 `~/.local/bin`，Windows 是 `%USERPROFILE%\.local\bin`） | 先新开一个终端；还不行，macOS / Linux 运行 `echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc` 然后 `source ~/.zshrc`（bash 用 `~/.bashrc`）；Windows PowerShell 把 `%USERPROFILE%\.local\bin` 加进用户 PATH 后重开终端 | [安装与登录排错](https://code.claude.com/docs/en/troubleshoot-install) |
 | `syntax error near unexpected token '<'`、`< was unexpected at this time` 或 `curl: (22) ... 403` | 安装地址返回的是网页而不是安装脚本：临时故障、代理或网络过滤拦截，或者所在国家不受支持（输出里会有 `App unavailable in region`） | 等几分钟重试；改用 Homebrew、WinGet 安装；`App unavailable in region` 说明当前所在国家不受支持，见 [支持的国家和地区](https://www.anthropic.com/supported-countries) | [安装与登录排错](https://code.claude.com/docs/en/troubleshoot-install) |
-| `irm is not recognized` / `The token '&&' is not a valid statement separator` / `'bash' is not recognized` | 在 CMD 里跑了 PowerShell 命令，或反过来 | 看提示符：`PS C:\` 用 `irm ... | iex`，`C:\` 用 CMD 那条命令 | [安装说明](https://code.claude.com/docs/en/setup) |
+| `irm is not recognized` / `The token '&&' is not a valid statement separator` / `'bash' is not recognized` | 在 CMD 里跑了 PowerShell 命令，或反过来 | 看提示符：`PS C:\` 用 `irm ... \| iex`，`C:\` 用 CMD 那条命令 | [安装说明](https://code.claude.com/docs/en/setup) |
 | `Failed to fetch version from downloads.claude.ai` | 网络无法访问下载服务器 | 运行 `curl -sI https://downloads.claude.ai/claude-code-releases/latest` 测试，返回 200 才正常；403 多是代理或网络过滤，或地区不受支持；检查 `HTTPS_PROXY` 设置，见下文"网络与代理" | [安装与登录排错](https://code.claude.com/docs/en/troubleshoot-install) |
 | `TLS connect error`、`unable to get local issuer certificate` 等 TLS 报错 | 系统根证书过旧，或公司代理做 TLS 检查 | 更新系统 CA 证书；公司代理用 `export NODE_EXTRA_CA_CERTS=/path/to/ca-cert.pem` 让它信任代理证书 | [安装与登录排错](https://code.claude.com/docs/en/troubleshoot-install) |
 | `EACCES: permission denied`（npm 安装时） | npm 全局目录没有写权限 | 不要用 `sudo npm install -g`；官方建议改用原生安装脚本，或按排错页修复 npm 目录权限 | [安装与登录排错](https://code.claude.com/docs/en/troubleshoot-install) |
@@ -263,21 +261,21 @@ A：Anthropic 官方支持：登录 claude.ai，点左下角头像 → Get help�
 
 ## 国内开通参考
 
-没有海外卡、想了解国内怎么开通 Claude Pro / Max 来用 Claude Code，以及选哪一档，看这一篇：[Claude Code 怎么收费？多少钱一个月，Pro 和 Max 怎么选](https://kw.yaoyao.chat/guide/claude-code.html)。
+没有海外卡、想了解国内怎么开通 Claude Pro / Max 来用 Claude Code，看同一作者的 [claude-daichong](https://github.com/haiwaihuyonghui-rgb/claude-daichong)：官方订阅、App 内购、赠送订阅、代充四种方法怎么选；选哪一档见上面 [Pro 和 Max 额度怎么选](#pro-和-max-额度怎么选)。
 
 ## 在哪买、质保怎么算
 
 作者"瑶瑶ai训练师"自己经营一家 AI 会员代充商城，这里如实写明，读者可以据此判断本文立场。
 
-- **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/)（瑶瑶ai训练师 · AI会员充值）；官网 [www.yaoyao.chat](https://www.yaoyao.chat/)。
-- **能买什么**：ChatGPT Plus（一个月卡密自助开通，1～3 分钟到账；十二个月人工开通）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
-- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)。
-- **质保**（全部商品通用，原文见 [售后与质保规则](https://kw.yaoyao.chat/guide/shouhou-zhibao.html)）：
-  1. **没开通成功**：卡密不消耗、自动退回，可以重新提交；不想再试的，联系微信退款。
+- **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)（瑶瑶ai训练师 · AI会员充值）；官网 `www.yaoyao.chat`。
+- **能买什么**：ChatGPT Plus（一个月卡密自助开通，平均 2 分钟到账；十二个月付款后在订单页填开通信息，平均 2 分钟开通好）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
+- **价格**：以商城页面为准，Claude 三档见本页开头的"快速购买"；四家会员的官方价和代充价放在一起比，见同一作者的 [chatgpt-jiage-duibi](https://github.com/haiwaihuyonghui-rgb/chatgpt-jiage-duibi)。
+- **质保**（全部商品通用，原文见 [售后与质保规则](https://kw.yaoyao.chat/guide/shouhou-zhibao.html?utm_source=github&utm_medium=readme&utm_campaign=claude-code-guide-cn)）：
+  1. **没开通成功**：ChatGPT Plus 一个月的卡密不消耗、自动退回，可以重新提交；不想再试的，联系微信退款。其他商品没开通成功，重新开通或退款。
   2. **开通成功后掉会员**（订阅被撤销、账号变回 Free）：在这一期会员有效期内，凭订单号和截图联系微信，再补一个月，补到同一个账号。
   3. **账号被封 / 停用**：原因多在账号使用、网络环境或付款侧，不在质保范围、不退款；ChatGPT 封号可协助重新注册，Claude 封号协助申诉。
 - **售后**：只找瑶瑶本人微信 yao77380。
-- **怎么分辨真假**：瑶瑶的网址只有 www.yaoyao.chat、kw.yaoyao.chat、cz.yaoyao.chat 三个；其他自称"瑶瑶"的网站、账号或软件都不是本人。
+- **怎么分辨真假**：瑶瑶的网址只有 `www.yaoyao.chat`、`kw.yaoyao.chat`、`cz.yaoyao.chat` 三个；其他自称"瑶瑶"的网站、账号或软件都不是本人。
 
 ## 参考资料
 
@@ -304,6 +302,7 @@ A：Anthropic 官方支持：登录 claude.ai，点左下角头像 → Get help�
 
 | 日期 | 核对了什么 | 结果 |
 |---|---|---|
+| 2026-10-28 | **价格：** 按作者商城事实卡 yy-facts.json（每 15 分钟从商城数据库生成）核对全部商品 | 与本页"快速购买"和价格表一致，无变动；开通时间统一写"平均 2 分钟" |
 | 2026-10-27 | **价格：** curl 作者商城商品页 item/5、7、10、11、12、13、14、17、18、19 和 llms.txt | 与本页"快速购买"一致（Pro 100 美金档位 ¥699、Plus ¥129、Claude Pro ¥159、Max 5X ¥900），十个商品均无变动 |
 | 2026-10-26 | **官方价格：** Claude 定价页、帮助中心 What is the Max plan | Pro 月付 20 美元 / 年付折合 17 美元（一次 200 美元）；Max 5x 100、Max 20x 200 美元；Max 含每月 API 额度；官方注明手机端价格可能不同——与本页价格表一致 |
 | 2026-10-26 | **官方政策：** Anthropic 支持地区列表、账单 FAQ、赠送订阅文章 | 大陆、香港、澳门不在支持列表，台湾在；App 内订阅由苹果 / 谷歌管理；赠送订阅暂停购买 |
@@ -321,8 +320,8 @@ A：Anthropic 官方支持：登录 claude.ai，点左下角头像 → Get help�
 - [claude-chongzhi](https://github.com/haiwaihuyonghui-rgb/claude-chongzhi)：Claude 充值平台怎么选：Pro / Max 怎么选、充值后显示 Free Plan 排查
 - [grok-premium](https://github.com/haiwaihuyonghui-rgb/grok-premium)：Grok Premium（原 SuperGrok）国内怎么买：官方四档、三合一说明、四种开通方法
 - [ai-subscription-guide-cn](https://github.com/haiwaihuyonghui-rgb/ai-subscription-guide-cn)：AI 会员订阅国内指南：ChatGPT / Claude / Gemini / Grok 开通路线对比、常见报错速查
-- 组织目录页 [yaoyao-ai-trainer.github.io](https://yaoyao-ai-trainer.github.io/)：以后新攻略会交替放在组织号 yaoyao-ai-trainer 下，这个页面汇总两边全部攻略。
+- [全部教程合集](https://github.com/yaoyao-ai-trainer/yaoyao-ai-trainer.github.io)：组织号 yaoyao-ai-trainer 下的合集目录，每章是摘要，正文以各仓库为准。
 
 ---
 
-整理：瑶瑶ai训练师（AI 内容创作者），[官网](https://www.yaoyao.chat/)。本仓库为非官方教程整理，与 Anthropic 没有隶属关系，品牌名仅用于说明。瑶瑶没有发布过任何桌面软件、手机 App、浏览器插件或"账号切换器"，本账号下只有文字教程仓库。内容采用 CC-BY-4.0 许可，转载请注明出处。
+整理：瑶瑶ai训练师（AI 内容创作者）。本仓库为非官方教程整理，与 Anthropic 没有隶属关系，品牌名仅用于说明。瑶瑶没有发布过任何桌面软件、手机 App、浏览器插件或"账号切换器"，本账号下只有文字教程仓库。自 2026-10-28 起的版本采用 [CC BY-ND 4.0](LICENSE) 许可：可以原样转载，须署名"瑶瑶ai训练师"并附原文链接 https://github.com/haiwaihuyonghui-rgb/claude-code-guide-cn ；不许改编、改写后发布。
